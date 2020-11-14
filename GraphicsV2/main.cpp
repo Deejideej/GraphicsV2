@@ -41,22 +41,22 @@ int main()
     std::vector<vertex> renderList;
 
     // Create a vertex, add it to the list we created earlier
-    vertex dot0(50, 50, 50);
+    vertex dot0(0, 0, 50);
     renderList.push_back(dot0);
-    vertex dot1(80, 50, 50);
+    vertex dot1(-20, 0, 50);
     renderList.push_back(dot1);
-    vertex dot2(50, 50, 80);
+    vertex dot2(0, 0, 30);
     renderList.push_back(dot2);
-    vertex dot3(80, 50, 80);
+    vertex dot3(-20, 0, 30);
     renderList.push_back(dot3);
 
-    vertex dot4(50, 80, 50);
+    vertex dot4(0, -20, 50);
     renderList.push_back(dot4);
-    vertex dot5(80, 80, 50);
+    vertex dot5(-20, -20, 50);
     renderList.push_back(dot5);
-    vertex dot6(50, 80, 80);
+    vertex dot6(0, -20, 30);
     renderList.push_back(dot6);
-    vertex dot7(80, 80, 80);
+    vertex dot7(-20, -20, 30);
     renderList.push_back(dot7);
 
     // Create an array to hold the value of each pixel on screen, note that if you would like to change the resolution it is neccesary to update the print function
